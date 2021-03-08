@@ -1,0 +1,135 @@
+body{
+    margin:auto;
+    padding:0;
+}
+
+.home {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+.nav-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color:#AAE5EF;
+    color:white;
+    height: 10vh;
+}
+
+.nav-lists{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex:1;
+    max-width: 40%;
+    list-style-type: none;
+}
+
+.nav-lists a{
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+}
+
+.bd-text{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.bd-text > div {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
+
+.bd-text-one{
+    transform: translateY(100%);
+    display: flex;
+    color:blue;
+}
+
+.bd-text > div > a{
+    transform: translateY(100%);
+    background-color:blue;
+    padding:15px;
+    border-radius: 10%;
+    border-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.bd-text-one a{
+    text-decoration: none;
+    color: white;
+    font-size: 2.75rem;
+}
+
+.img-body{
+    max-width:55%;
+}
+.body2{
+    display: flex;    
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #BFF2F4;
+    color:white;
+}
+
+.div1{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex:1;
+    padding: 2rem;
+}
+
+.div2{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex:1;
+    background-color:#96B9D0;
+    padding: 2rem;
+}
+
+.div1>form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+}
+
+.div1>form>input{
+    width: 50%;
+    height: 5vh;
+    border-style: none;
+    border-radius: 5%;
+}
+
+.lform>input{
+    margin-bottom: 20px;
+    width: 25%;
+    height: 10vh;
+    border:0 none #ccc;
+    border-bottom: 2px solid #AAE5EF;
+}
+
+#lbtn{
+    width:10%;
+    background-color:#96B9D0;
+    color:white;
+    border: none;
+}
+
+
+
